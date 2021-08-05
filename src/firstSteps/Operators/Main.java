@@ -47,10 +47,7 @@ public class Main {
 
     boolean isCar = false;
     isCar = true;
-    boolean wasCar = isCar;
-    if (wasCar) {
-      System.out.println("wasCar is true");
-    }
+    System.out.println("wasCar is true");
 
     System.out.println("______________________________________________________");
 
@@ -67,9 +64,8 @@ public class Main {
     System.out.println(isRemainderDouble);
     if (isRemainderDouble) {
       System.out.println("Remainder = 0");
-      } else {
+    } else {
       System.out.println("Remainder not equals zero. It equals " + remainderDouble);
-          }
-
+    }
   }
 }
